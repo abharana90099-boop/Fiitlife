@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FitLife Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">FitLife</a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menu"
+      aria-controls="menu"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Build Your Best Body</h1>
+    <p>Fitness is not a destination, it's a lifestyle</p>
+    <button id="joinBtn" class="btn btn-danger">Start Today</button>
+  </div>
+</section>
+<section class="section light">
+  <div class="container text-center">
+    <h2>Why Choose FitLife?</h2>
+    <p class="section-text">We help you transform your body with science-based training and real results.</p>
+    <div class="row mt-4">
+      <div class="col-md-4">💪 Expert Trainers</div>
+      <div class="col-md-4">🔥 Modern Equipment</div>
+      <div class="col-md-4">🥗 Nutrition Guidance</div>
+    </div>
+  </div>
+</section>
+<section class="section dark">
+  <div class="container">
+    <h2 class="text-center">Popular Programs</h2>
+    <div class="row g-4 mt-3">
+      <div class="col-md-4">
+        <div class="card custom-card">Strength Training</div>
+      </div>
+      <div class="col-md-4">
+        <div class="card custom-card">Weight Loss</div>
+      </div>
+      <div class="col-md-4">
+        <div class="card custom-card">Yoga & Mobility</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section light">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4"><h3 class="counter" data-target="500">0</h3><p>Happy Members</p></div>
+      <div class="col-md-4"><h3 class="counter" data-target="20">0</h3><p>Expert Trainers</p></div>
+      <div class="col-md-4"><h3 class="counter" data-target="10">0</h3><p>Years Experience</p></div>
+    </div>
+  </div>
+</section>
+<section class="section cta">
+  <h2>Ready To Change Your Life?</h2>
+  <button class="btn btn-light" onclick="scrollToContact()">Contact Us</button>
+</section>
+
+<footer>
+  © 2026 FitLife Gym. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

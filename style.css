@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+}
+
+.custom-nav {
+  background: rgba(0,0,0,0.9);
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #000, #222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.section {
+  padding: 70px 20px;
+}
+
+.light {
+  background: #f7f7f7;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.section-text {
+  max-width: 600px;
+  margin: auto;
+}
+
+.custom-card {
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.cta {
+  background: #e63946;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: black;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .section {
+    padding: 50px 15px;
+  }
+}
+
+.contact-section {
+  padding: 80px 0;
+  background: #f7f7f7;
+}
+
+.contact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,.15);
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#formMsg {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.trainer-section {
+  padding: 90px 0;
+}
+
+.trainer-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,.15);
+  transition: transform 0.3s ease;
+}
+
+.trainer-card:hover {
+  transform: translateY(-10px);
+}
+
+.trainer-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.trainer-card span {
+  display: block;
+  color: #e63946;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .contact-section {
+    text-align: center;
+  }
+}
+.program-hero {
+  height: 50vh;
+  background: linear-gradient(to right, #000, #222);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.program-section {
+  padding: 80px 0;
+}
+
+.program-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,.15);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+}
+
+.program-card ul {
+  padding-left: 18px;
+}
+
+.program-extra {
+  background: #f7f7f7;
+  padding: 70px 0;
+}
+
+.program-cta {
+  background: #e63946;
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .program-hero {
+    height: 40vh;
+  }
+}
